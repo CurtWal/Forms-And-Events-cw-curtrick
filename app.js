@@ -7,7 +7,7 @@ let my_reg = document.getElementById('reg-form');
 let firstNameInputField = document.getElementById('reg-form')
 function registerForm(e){
     e.preventDefault()
-    alert('sent')
+    alert('registration complete')
     my_reg.reset()
 }
 
